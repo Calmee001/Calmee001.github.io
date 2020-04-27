@@ -326,7 +326,7 @@ section
 	.pos
 	{
 	    position: fixed;
-	    bottom: 18%;
+	    bottom: 16%;
 	    right: 50px;
 	}
 	.pos2
@@ -338,7 +338,7 @@ section
 	.pos3
 	{
 		position: fixed;
-	    bottom: 13%;
+	    bottom: 11%;
 	    right: 50px;
 	}
 }
