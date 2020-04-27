@@ -1,0 +1,180 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	cursor: url('./icons/navigation.svg'), auto;	
+}
+.background
+{
+	background-image: url('back6b.jpg');
+	background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-height: 999px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+
+				/*	<!---------------navigation bar--------------->*/
+	
+.navbar-toggler-icon
+{
+	color: white;
+	background-color: white;
+	background-image: url('./icons/menu.svg') !important;
+}				
+.top_nav
+{
+	background-color:   rgba(153, 153, 255, 0);
+	margin-top: 0px;
+}
+a.navbar-brand
+{
+	color: white !important;
+	font-size: 1.3em;
+	margin-left: 15px;
+	font-weight: 500;
+	opacity: 0.7;
+	font-family: 'Permanent Marker', cursive;
+}
+a.navbar-brand:hover
+{
+	opacity: 0.9;
+}
+.nav-item
+{
+	margin: 5px;
+	padding: 5px;
+}
+.navbar-brand
+{
+	margin-left: 10px;
+}
+.navbar-toggler
+{
+	outline: none;
+}
+.top_nav
+{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+a
+{
+	color: white !important;
+	opacity: 0.7;
+	text-align: center;
+	z-index: 10;
+}
+a:hover
+{
+	opacity: 0.9;
+}
+
+
+
+
+.parent 
+{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr) 0.4fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	padding-top: 12vh;
+    padding-bottom: 5vh; 
+}
+
+.bd_tlt 
+{
+ 	grid-area: 1 / 1 / 3 / 6;
+ 	color: #000000e8;
+ 	opacity: 0.9;
+ 	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top:30px; 	
+}
+.body_title
+{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 4em !important;
+	padding-bottom: 0px;
+	padding: 25px;
+	margin: 0;
+	cursor: pointer;
+	border-radius: 50px 20px;
+	-webkit-box-shadow:4px 6px 40px 4px #000000;
+	-moz-box-shadow:4px 6px 40px 4px #000000;
+	-o-box-shadow:4px 6px 40px 4px #000000;
+	-ms-box-shadow:4px 6px 40px 4px #000000;
+	box-shadow:4px 6px 40px 4px #000000;
+
+}
+.quote 
+{
+	grid-area: 3 / 1 / 4 / 6;
+	font-family: 'Comic Neue', cursive;
+	font-size: 1em !important;
+	margin-top: 0;
+	padding-top: 20px;
+ 	color: white;
+ 	opacity: 0.9;
+ 	display: flex;
+	justify-content: center;
+	margin: 5px;
+    font-size: 1.2em !important;
+}
+.Coffee
+{
+	position: relative;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 6px;
+}
+
+.side_tlt
+{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 15vw;
+	color: rgba(255, 255, 255, 0.8);
+	font-family: 'Dancing Script', cursive;	
+}
+.intro
+{
+	margin: 30px 15vw;
+	border: 1px solid white;
+	border-radius: 10px; 
+	color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+}
+.intro img
+{
+	margin-top: 3px;
+	opacity: 0.8;
+}
+.center
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0px;
+	font-size: 1.6em;
+}
+.explain
+{
+	margin-top: 30px;
+	font-size: 1em;
+}
+.bold
+{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.3em;
+}

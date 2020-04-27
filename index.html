@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="icon" type="image/png" href="./icons/logo1.svg">
+	<title>CALME'</title>
+	<link rel="stylesheet" type="text/css" href="sound.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="background"> 
+	<span>
+
+
+
+				<!-- media link -->
+
+
+<div class="pos">
+		<div class="container">
+			<div class="cube">
+				<div class="side back facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//<!-- codepen.io --><!-- here you have to add the domain of your website --> /"><img class="fab fa-facebook icon" src="./icons/facebook.svg"> </div></a>
+				<div class="side left black"><img class="fab fa-facebook icon" src="./icons/facebook.svg"> </div>
+				<div class="side front black"><img class="fab fa-facebook icon" src="./icons/facebook.svg"> </div>
+				<div class="side right black"><img class="fab fa-facebook icon" src="./icons/facebook.svg"> </div>
+				<div class="side top black"><img class="fab fa-facebook icon" src="./icons/facebook.svg"> </div>
+				<div class="side bottom black"><img class="fab fa-facebook icon" src="./icons/facebook.svg"> </div>
+				
+			</div>
+			
+		</div>
+
+</div>
+<div class="pos2">
+		<div class="container">
+			<div class="cube">
+				<div class="side back twitter"><img class="fab fa-twitter icon" src="./icons/twitter.svg"> </div>
+				<div class="side left black"><img class="fab fa-twitter icon" src="./icons/twitter.svg"> </div>
+				<div class="side front black"><img class="fab fa-twitter icon" src="./icons/twitter.svg"> </div>
+				<div class="side right black"><img class="fab fa-twitter icon" src="./icons/twitter.svg"> </div>
+				<div class="side top black"><img class="fab fa-twitter icon" src="./icons/twitter.svg"> </div>
+				<div class="side bottom black"><img class="fab fa-twitter icon" src="./icons/twitter.svg"> </div>
+				
+			</div>
+			
+		</div>
+</div>
+
+
+
+
+						<!---------------navigation bar--------------->
+
+		<div class="top_nav">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="#"><img src="./icons/logo1.svg" width="30px" height="30px" class="d-inline-block align-top"> CALME'</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="navbar-toggler-icon"></div>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#"><h5>HOME</h5></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="updates.html"><h5>UPDATES</h5></a>
+						</li>
+						<li class="nav-item">
+						    <a class="nav-link" href="about.html"><h5>ABOUT</h5></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+
+						<!----------------body------------------>
+
+		<div class="parent">
+			<div class="bd_tlt"> 
+				<h3 class="body_title">CALME'</h3>
+			</div>
+			<div class="quote"> 
+				<p class="words">Keep Calm and <!-- Work Hard to Create --> Grab a Coffee <img src="./icons/logo1.svg" width="30px" height="30px" class="Coffee"></p>
+			</div>
+			<div class="cat"> 
+				<div class="grid">
+					<section>
+						<div class="rain" id="set" onclick="rain()">
+							<audio id="rain-sound" preload="auto" loop>                 <!-- to play audio -->
+								<source src="./sounds/rain.mp4" type="audio/mp4">
+		  						<source src="./sounds/rain.ogg" type="video/ogg"> 
+							</audio> 
+							<img class="img" src="./icons/rain.svg" width="50px" height="50px">
+							<h3 class="des">Rain</h3><br>
+<!-- 							<input type="range" id="volume_rain"> -->
+							
+						</div>
+					</section>
+					<section>
+						<div class="lighting" id="set" onclick="lighting()">
+							<audio id="light-sound" preload="auto" loop>
+								<source src="./sounds/thunder.mp4" type="audio/mp4">
+						  		<source src="./sounds/thunder.ogg" type="video/ogg"> 
+							</audio>
+							<img class="img" src="./icons/light.svg" width="50px" height="50px">
+							<h3 class="des">Thunder</h3>
+							
+						</div>
+					</section>
+					<section>
+						<div class="wind" id="set" onclick="wind()">
+							<audio id="wind-sound" preload="auto" loop>
+								<source src="./sounds/wind.mp3" type="audio/mp4">
+						  		<source src="./sounds/wind.ogg" type="video/ogg"> 
+							</audio>
+							<img class="img" src="./icons/wind.svg" width="50px" height="50px">
+							<h3 class="des">Wind</h3>
+							
+						</div>
+					</section>
+					<section>
+						<div class="snow" id="set" onclick="snow()">
+							<audio id="snow-sound" preload="auto" loop>
+								<source src="./sounds/snow.mp3" type="audio/mp4">
+						  		<source src="./sounds/snow.ogg" type="video/ogg"> 
+							</audio>
+							<img class="img" src="./icons/snow.svg" width="50px" height="50px">
+							<h3 class="des">Snow</h3>
+							
+						</div>
+					</section>
+					<section>
+						<div class="fire" id="set" onclick="fire()">
+							<audio id="fire-sound" preload="auto" loop>
+								<source src="./sounds/fire.mp4" type="audio/mp4">
+						  		<source src="./sounds/fire.ogg" type="video/ogg"> 
+							</audio>
+							<img class="img" src="./icons/fire.svg" width="50px" height="50px">
+							<h3 class="des">Fire</h3>
+							
+						</div>
+					</section>
+					<section>
+						<div class="bird" id="set" onclick="bird()">
+							<audio id="bird-sound" preload="auto" loop>
+								<source src="./sounds/birds.mp4" type="audio/mp4">
+						  		<source src="./sounds/birds.ogg" type="video/ogg"> 
+							</audio>
+							<img class="img" src="./icons/bird.png" width="50px" height="50px">
+							<h3 class="des">Bird</h3>
+							
+						</div>
+					</section>
+					<section>
+						<div class="snow" id="set" onclick="waves()">
+							<audio id="waves-sound" preload="auto" loop>
+								<source src="./sounds/waves.mp4" type="audio/mp4">
+						  		<source src="./sounds/waves.ogg" type="video/ogg"> 
+							</audio>
+							<img class="img" src="./icons/waves.svg" width="50px" height="50px">
+							<h3 class="des">Waves</h3>
+							
+						</div>
+					</section>
+					<section>
+						<div class="drop" id="set" onclick="drop()">
+							<audio id="drop-sound" preload="auto" loop>
+								<source src="./sounds/drop.mp3" type="video/mp4">
+						  		<source src="./sounds/drop.ogg" type="video/ogg"> 
+							</audio>
+							<img class="img" src="./icons/drop.svg" width="50px" height="50px">
+							<h3 class="des">Drop</h3>
+							
+						</div>
+					</section>
+					
+				</div>
+
+			</div>
+		</div>
+	</span>
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src="sound.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
